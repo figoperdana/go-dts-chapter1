@@ -9,7 +9,6 @@ func main() {
 	chars := (word)
 	charCount := make(map[string]int)
 
-	
 	for _, char := range word {
 		charCount[string(char)]++
 	}
@@ -19,5 +18,6 @@ func main() {
 		char := string(chars[i])
 		println(char)
 	}
+	fmt.Println()
 	fmt.Println(charCount)
 }
